@@ -1,0 +1,29 @@
+body {
+  background-image: url(../img/pexels-barry-plott-48592-753500.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  span {
+    color: red;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    background-color: brown;
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    background-color: blue;
+  }
+}
+
+@media (max-width: 768px) {
+  body {
+    span {
+      color: black;
+    }
+  }
+}
